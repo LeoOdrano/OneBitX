@@ -1,4 +1,4 @@
-# [OneBitX](https://github.com/leoodrano/onebitx)
+# [OneBitX](https://leoodrano.github.io/OneBitX/)
 
 
 ### Status: ✅Finalizado! 
