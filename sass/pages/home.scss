@@ -1,0 +1,40 @@
+.section-content {
+    &.content01 {
+        background-image: url(../images/home/01.jpg);
+    }
+    &.content02 {
+        background-image: url(../images/home/03.jpg);
+    }
+    &.content03 {
+        background-image: url(../images/home/02.gif);
+    }
+    &.content04 {
+        background-image: url(../images/home/04.jpg);
+    }
+}
+
+.homeSectionPadding {
+    padding-top: 200px;
+}
+
+.arrowGifHome {
+    width: 100px;
+}
+
+.shortTitle {
+    width: 500px;
+}
+
+.mediumTitle {
+    width: 650px;
+}
+
+@media (max-width: 768px) {
+    .mediumTitle {
+        width: auto;
+    }
+
+    .shortTitle {
+        width: auto;
+    }
+}

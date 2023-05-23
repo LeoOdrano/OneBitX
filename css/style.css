@@ -1,0 +1,346 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.navLink {
+  color: white;
+}
+
+.section-content {
+  color: white;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbarImg {
+  width: 250px;
+  height: auto;
+}
+
+.button {
+  color: white;
+  padding: 15px 33px;
+  border: 2px solid white;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contactSection {
+  padding-top: 250px;
+  color: white;
+  background-color: black;
+  height: 85vh;
+}
+
+.emailLink {
+  color: #555252;
+}
+.emailLink:hover {
+  color: #b9b9b9;
+}
+
+.page-footer {
+  color: #555252;
+  background-color: black;
+  height: 15vh;
+}
+.page-footer .heart-icon {
+  color: red;
+}
+.page-footer .link-footer {
+  color: #555252;
+}
+.page-footer .link-footer:hover {
+  color: #b9b9b9;
+}
+
+@media (max-width: 394px) {
+  .navbarImg {
+    max-width: 160px;
+  }
+}
+@media (max-width: 364px) {
+  .page-footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section-content.content01 {
+  background-image: url(../images/home/01.jpg);
+}
+.section-content.content02 {
+  background-image: url(../images/home/03.jpg);
+}
+.section-content.content03 {
+  background-image: url(../images/home/02.gif);
+}
+.section-content.content04 {
+  background-image: url(../images/home/04.jpg);
+}
+
+.homeSectionPadding {
+  padding-top: 200px;
+}
+
+.arrowGifHome {
+  width: 100px;
+}
+
+.shortTitle {
+  width: 500px;
+}
+
+.mediumTitle {
+  width: 650px;
+}
+
+@media (max-width: 768px) {
+  .mediumTitle {
+    width: auto;
+  }
+  .shortTitle {
+    width: auto;
+  }
+}
+.section-content.content05 {
+  background-image: url(../images/falcon9/01.jpg);
+}
+.section-content.content06 {
+  background-image: url(../images/falcon9/02.jpg);
+}
+.section-content.content07 {
+  background-image: url(../images/falcon9/08.jpg);
+}
+.section-content.carousel01 {
+  background-image: url(../../images/falcon9/03.jpg);
+}
+.section-content.carousel02 {
+  background-image: url(../../images/falcon9/04.jpg);
+}
+.section-content.carousel03 {
+  background-image: url(../../images/falcon9/05.jpg);
+}
+.section-content.carousel04 {
+  background-image: url(../../images/falcon9/06.jpg);
+}
+.section-content.carousel05 {
+  background-image: url(../../images/falcon9/07.jpg);
+}
+
+.titleContent {
+  padding-top: 200px;
+}
+.titleContent .titleFalcon9 {
+  font-size: 90px;
+  font-weight: bold;
+}
+.titleContent .subTitleFalcon9 {
+  font-size: 20px;
+}
+
+.numbers {
+  background-color: black;
+  color: white;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.numbers .number {
+  font-size: 90px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.numbers .paragraph {
+  font-size: 20px;
+}
+
+.infoFalcon9 {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.infoFalcon9 .paragraph {
+  width: 640px;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.infoPosition {
+  height: 90vh;
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.infoPosition table {
+  color: white;
+}
+
+.imgCarousel {
+  width: auto;
+  min-height: 100vh;
+}
+
+.placeHolder {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .infoFalcon9 .paragraph {
+    width: auto;
+  }
+}
+@media (max-width: 585px) {
+  .numbers {
+    height: auto;
+    flex-direction: column;
+  }
+  .infoPosition {
+    height: 90vh;
+    width: auto;
+    margin-left: 13%;
+    padding-top: 15%;
+  }
+  .infoPosition table {
+    color: white;
+  }
+}
+@media (max-width: 556px) {
+  .contactSectionButton {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 368px) {
+  .titleContent {
+    padding-top: 200px;
+  }
+  .titleContent .titleFalcon9 {
+    font-size: 70px;
+  }
+}
+.section-content.content08 {
+  background-image: url(../images/humanFlight/01.jpg);
+}
+.section-content.content09 {
+  background-image: url(../../images/humanFlight/02.jpg);
+}
+.section-content.content10 {
+  background-image: url(../../images/humanFlight/03.jpg);
+}
+.section-content.content11 {
+  background-image: url(../../images/humanFlight/04.jpg);
+}
+.section-content.content12 {
+  background-image: url(../../images/humanFlight/05.jpg);
+}
+
+.titleContentHumanSpace {
+  padding-top: 150px;
+}
+.titleContentHumanSpace .title {
+  font-size: 120px;
+  font-weight: 600;
+}
+.titleContentHumanSpace .subTitle {
+  font-size: 30px;
+  font-weight: 100;
+}
+.titleContentHumanSpace .arrowDown {
+  width: 150px;
+}
+
+.comercialFlightsContact {
+  color: whitesmoke;
+  height: 25vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comercialFlightsContact .paragraph {
+  width: 800px;
+  font-size: 20px;
+}
+
+.missionTitle {
+  margin: 0;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.missionSubTitle {
+  font-weight: 100;
+  padding: 0;
+}
+
+.rightPosition {
+  padding-top: 15%;
+  padding-left: 55%;
+}
+
+.leftPosition {
+  padding-top: 15%;
+  padding-left: 5%;
+}
+
+@media (max-width: 743px) {
+  .titleContentHumanSpace .title {
+    font-size: 80px;
+  }
+  .titleContentHumanSpace .subTitle {
+    font-size: 30px;
+  }
+  .comercialFlightsContact {
+    height: 25vh;
+  }
+  .comercialFlightsContact .paragraph {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+    font-size: auto;
+  }
+}
+@media (max-width: 644px) {
+  .rightPosition {
+    padding-left: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .titleContentHumanSpace .title {
+    font-size: 60px;
+  }
+}
+@media (max-width: 380px) {
+  .titleContentHumanSpace .title {
+    font-size: 50px;
+  }
+  .titleContentHumanSpace .subTitle {
+    font-size: auto;
+  }
+  .missionTitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .missionSubTitle {
+    font-weight: 100;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

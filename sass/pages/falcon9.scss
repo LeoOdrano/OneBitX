@@ -1,0 +1,136 @@
+.section-content {
+    &.content05 {
+        background-image: url(../images/falcon9/01.jpg);
+    }
+    &.content06 {
+        background-image: url(../images/falcon9/02.jpg);
+    }
+    &.content07 {
+        background-image: url(../images/falcon9/08.jpg);
+    }
+    &.carousel01 {
+        background-image: url(../../images/falcon9/03.jpg);
+    }
+    &.carousel02 {
+        background-image: url(../../images/falcon9/04.jpg);
+    }
+    &.carousel03 {
+        background-image: url(../../images/falcon9/05.jpg);
+    }
+    &.carousel04 {
+        background-image: url(../../images/falcon9/06.jpg);
+    }
+    &.carousel05 {
+        background-image: url(../../images/falcon9/07.jpg);
+    }
+}
+
+.titleContent {
+    padding-top: 200px;
+
+    .titleFalcon9 {
+        font-size: 90px;
+        font-weight: bold;
+    }
+    .subTitleFalcon9 {
+        font-size: 20px;
+    }
+}
+
+.numbers {
+    background-color: black;
+    color: white;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .number {
+        font-size: 90px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+}
+
+.infoFalcon9 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .paragraph {
+        width: 640px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+}
+
+.infoPosition {
+    height: 90vh;
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+
+    table {
+        color: white;
+    }
+}
+
+.imgCarousel {
+    width: auto;
+    min-height: 100vh;
+}
+
+.placeHolder {
+    background-color: black;
+}
+
+
+
+@media (max-width: 768px) {
+    .infoFalcon9 {
+        .paragraph {
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 585px) { 
+    .numbers {
+    height: auto;
+    flex-direction: column;
+    }
+
+    .infoPosition {
+        height: 90vh;
+        width: auto;
+        margin-left: 13%;
+        padding-top: 15%;
+    
+        table {
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 556px) {
+    .contactSectionButton {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 368px) {
+    .titleContent {
+        padding-top: 200px;
+    
+        .titleFalcon9 {
+            font-size: 70px;
+        }
+    }
+}
+
